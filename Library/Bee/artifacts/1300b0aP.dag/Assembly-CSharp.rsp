@@ -308,6 +308,7 @@
 "Assets/Scripts/CollisionControl.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/InGameRanking.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Opponent.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/RankingSystem.cs"

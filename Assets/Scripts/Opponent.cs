@@ -61,7 +61,6 @@ public class Opponent : MonoBehaviour
     private void OpponentFinished()
     {
         OpponentAgent.isStopped = true;
-        Debug.Log(OpponentAgent.gameObject.name);
 
         for (int i = 0; i < GameManager.instance.sortArray.Count; i++)
         {

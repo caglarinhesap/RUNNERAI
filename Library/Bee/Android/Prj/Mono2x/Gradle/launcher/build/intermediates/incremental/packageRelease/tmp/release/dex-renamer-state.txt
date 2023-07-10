@@ -1,4 +1,4 @@
-#Wed Jul 05 15:21:16 EET 2023
+#Mon Jul 10 23:56:56 EET 2023
 base.0=E\:\\Game Projects\\RUNNERAI\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public List<bool> finishedRanks;
     public bool isGameOver = false;
 
+    public string username = "Player";
+
     private void Awake()
     {
         instance = this;
@@ -24,6 +26,11 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < runners.Length; i++)
         {
+            if (runners[i].name == "Player")
+            { 
+                runners[i].name = PlayerPrefs.GetString("username");
+            }
+
             sortArray.Add(runners[i].GetComponent<RankingSystem>());
             finishedRanks.Add(false);
         }
